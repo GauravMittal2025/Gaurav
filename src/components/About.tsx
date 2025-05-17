@@ -64,7 +64,7 @@ const About: React.FC = () => {
             >
               Resume <ArrowRight size={16} className="ml-2" />
             </button> */}
-            <a 
+            {/* <a 
               // onClick={openResume}
               href={"public/assets/Gourav_resume.pdf"}
               download={"Gourav_resume"}
@@ -72,7 +72,7 @@ const About: React.FC = () => {
               className="inline-flex items-center text-blue-600 font-medium mt-8 hover:text-blue-700 transition-colors duration-300"
             >
               Resume <ArrowRight size={16} className="ml-2" />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
