@@ -11,7 +11,7 @@ export const projects: Project[] = [
     image: '/static/images/goodvets.png',
     tags: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe'],
     liveLink: 'https://goodvets.com/',
-    githubLink: 'https://github.com',
+    // githubLink: 'https://github.com',
     featured: true,
   },
   {
@@ -22,7 +22,7 @@ export const projects: Project[] = [
     image: '/static/images/neqquo.png',
     tags: ['React', 'TypeScript', 'PHP', 'Tailwind CSS'],
     liveLink: 'https://www.neqqo.com/',
-    githubLink: 'https://github.com',
+    // githubLink: 'https://github.com',
     featured: true,
   },
   {
@@ -33,7 +33,7 @@ export const projects: Project[] = [
     image: '/static/images/platerate.png',
     tags: ['React', 'Node.js', 'Express', 'MongoDB'],
     liveLink: 'https://platerate.com/',
-    githubLink: 'https://github.com',
+    // githubLink: 'https://github.com',
     featured: true,
   },
   {
@@ -93,6 +93,19 @@ export const experiences: Experience[] = [
   },
   {
     id: '4',
+    company: 'MattsenKumar Pvt. Ltd.',
+    position: 'Sr. Software Developer',
+    duration: 'July 2022 - May 2023',
+    description: [
+      'Led development on call management system and scheduling tools with React and Redux.',
+      'Worked closely with designers to ensure pixel-perfect implementation',
+      'Assisted in troubleshooting and fixing bugs in existing projects'
+    ],
+    technologies: ['HTML5', 'CSS3', 'JavaScript', 'jQuery', 'Bootstrap', 'Docker', 'Laravel'],
+    // logo: 'https://images.pexels.com/photos/1482061/pexels-photo-1482061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+  },
+  {
+    id: '5',
     company: 'Agias Engineering Pvt. Ltd.',
     position: 'Software Developer',
     duration: 'Dec 2019 - June 2022',
@@ -105,7 +118,7 @@ export const experiences: Experience[] = [
     // logo: 'https://images.pexels.com/photos/1482061/pexels-photo-1482061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
   },
   {
-    id: '5',
+    id: '6',
     company: 'Dezire Pvt. Ltd.',
     position: 'Jr. Software Developer',
     duration: 'May 2017 - Nov 2019',
