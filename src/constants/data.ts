@@ -160,7 +160,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: '2',
-    name: 'Michael Johnson',
+    name: 'Gourav Mittal',
     position: 'CTO',
     company: 'Digital Solutions Ltd.',
     text: 'An exceptional developer who brings both technical expertise and creative problem-solving to every project. They have a remarkable ability to understand business requirements and implement solutions that exceed expectations. I highly recommend their work.',
