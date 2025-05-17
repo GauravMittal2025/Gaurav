@@ -58,12 +58,21 @@ const About: React.FC = () => {
               </div>
             </div>
 
-            <button 
+            {/* <button 
               onClick={openResume}
               className="inline-flex items-center text-blue-600 font-medium mt-8 hover:text-blue-700 transition-colors duration-300"
             >
               Resume <ArrowRight size={16} className="ml-2" />
-            </button>
+            </button> */}
+            <a 
+              // onClick={openResume}
+              href={"public/assets/Gourav_resume.pdf"}
+              download={"Gourav_resume"}
+              target='_blank'
+              className="inline-flex items-center text-blue-600 font-medium mt-8 hover:text-blue-700 transition-colors duration-300"
+            >
+              Resume <ArrowRight size={16} className="ml-2" />
+            </a>
           </div>
         </div>
       </div>
