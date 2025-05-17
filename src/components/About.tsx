@@ -1,9 +1,12 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
-// import Gourav_25 from '../../src/assets/files/Gourav_25.docx'
-
 const About: React.FC = () => {
+
+  const openResume = () => {
+    window.open('public/static/files/Gourav_resume.pdf', '_blank', 'noopener,noreferrer');
+  }
+
   return (
     <section id="about" className="py-20 bg-gray-50 dark:bg-gray-800">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -55,14 +58,12 @@ const About: React.FC = () => {
               </div>
             </div>
 
-            {/* <a 
-              href={Gourav_25}
-              download={"my_resume"}
-              target='_blank' 
+            <button 
+              onClick={openResume}
               className="inline-flex items-center text-blue-600 font-medium mt-8 hover:text-blue-700 transition-colors duration-300"
             >
-              Download Resume <ArrowRight size={16} className="ml-2" />
-            </a> */}
+              Resume <ArrowRight size={16} className="ml-2" />
+            </button>
           </div>
         </div>
       </div>
