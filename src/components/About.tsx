@@ -18,7 +18,7 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="aspect-square overflow-hidden rounded-lg shadow-lg">
               <img 
-                src="../../public/assets/images/Gaurav01.jpg" 
+                src="/static/images/Gaurav01.jpg" 
                 alt="cover" 
                 className="object-cover w-full h-svw"
               />
