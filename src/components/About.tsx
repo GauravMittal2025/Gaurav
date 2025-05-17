@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 const About: React.FC = () => {
 
   const openResume = () => {
-    window.open('public/static/files/Gourav_resume.pdf', '_blank', 'noopener,noreferrer');
+    window.open('public/assets/Gourav_resume.pdf', '_blank', 'noopener,noreferrer');
   }
 
   return (
